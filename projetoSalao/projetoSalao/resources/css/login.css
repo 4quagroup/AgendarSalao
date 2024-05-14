@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    background-image: url("FotoJet.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+::placeholder {
+    color: #b6b6b6; /* Corrigido para color: #fffff; */
+    text-indent: 15px;
+}
+
+.login-container {
+    width: 450px; /* Reduzi o tamanho para melhor ajuste */
+    margin: 60px auto;
+    padding: 40px; /* Reduzi o padding */
+    border-radius: 10px;
+    text-align: center;
+    color: #f0f0f0;
+}
+
+img {
+    width: 180px;
+    height: 150px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    text-align: left;
+    color: transparent; /* Removi a cor transparente */
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+}
+
+.input-label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #cccccc00;
+    border-radius: 100px;
+
+    background-color: rgba(255, 255, 255, 0.315); /* Ajustei a opacidade do fundo */
+}
+
+button[type="submit"], .google-btn, .facebook-btn {
+    width: 200px;
+    height: 40px;
+    margin-bottom: 20px; /* Ajustei o espaçamento inferior */
+    margin-inline: 5px;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    border-radius: 100px;
+}
+
+button[type="submit"] {
+    background-color: #ff286c;
+    color: #fff;
+}
+
+button[type="submit"]:hover {
+    background-color: #d02950;
+}
+
+.google-btn {
+    background-color: #ffffff;
+    color: #3c3c3c;
+    margin-left: 55px;
+    background-image: url("search.png");
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+}
+
+
+
+.facebook-btn {
+    background-color: #3b5998;
+    color: #fff;
+    background-image: url("facebook\ \(1\).png");
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+}
+
+.social-login {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.social-login button {
+    flex: 1;
+}
+
+.register-text {
+    font-size: 14px;
+    color: #666;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.register-text a {
+    color: #ff286c;
+    text-decoration: none;
+}
+
+.register-text a:hover {
+    text-decoration: underline;
+}
+
+button[type="submit"] {
+    height: 60px;
+    width: 465px;
+    text-align: center;
+    font-size: 18px;
+}
+
+
